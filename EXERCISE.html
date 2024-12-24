@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>introduction of form</title>
+</head>
+<body>
+    <form >
+        <fieldset>
+            <legend>Personal Data</legend>
+        <label>
+            Enter your name:
+        </label>
+        <input type="text" placeholder="sakariyau Awwal" required><br><br>
+
+        <label>
+            Enter your phone No:
+        </label>
+        <input type="number" placeholder="+234" required><br><br>
+
+        <label for="">
+            country:
+        </label>
+        <select >
+            <option value=""required>----choose your country----</option>
+
+            <option value="Nigeria" >Nigeria</option>
+            <option value="gumiea">guniea</option>
+            <option value="ghana">ghana</option>
+            <option value="south Africa" >south africa</option>
+        </select><br> <br>
+
+        <label for="">
+            Enter your email
+        </label>
+        <input type="email" required ><br> <br>
+
+        <label for="">
+            Enter your age
+        </label>
+        <input type="number" required ><br><br>
+
+    </fieldset>
+
+        <form action="">
+            <fieldset>
+            <legend>company information</legend>
+
+            <label for="">
+                company name:
+            </label>
+            <input type="company name" required><br><br>
+
+            <label for="">
+                Registration certificate
+            </label>
+            <input type="file" required><br> <br>
+
+            <label for="">
+                Employee count
+            </label><br>
+            <input type="radio" name="Company-employee-count"value="1-5" required ><label >1-5 people</label><br>
+            <input type="radio" name="Company-employee-count"value="5-10" ><label >5-10 people</label><br>
+            <input type="radio" name="Company-employee-count"value="10+" ><label >10 & more people </label><br>
+            
+            <label for="">
+                Company Description
+            </label><br> 
+            <textarea name="Company Description" rows="15" cols="30" required></textarea>
+        </fieldset>
+        
+        
+        <button>
+            submit form
+        </button>
+        </form>
+    </form>
+</body>
+</html>
